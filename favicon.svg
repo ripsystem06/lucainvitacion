@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-labelledby="favTitle">
+  <title id="favTitle">Luca</title>
+  <defs>
+    <linearGradient id="blade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#56c8ff" />
+      <stop offset="1" stop-color="#72ff91" />
+    </linearGradient>
+  </defs>
+
+  <!-- navy rounded square -->
+  <rect x="0" y="0" width="64" height="64" rx="14" fill="#071226" />
+  <rect x="1" y="1" width="62" height="62" rx="13" fill="none" stroke="#10295d" stroke-width="2" />
+
+  <!-- lightsaber accent, upper right -->
+  <rect x="42" y="11" width="10" height="21" rx="5" fill="url(#blade)" />
+  <rect x="46" y="12.5" width="2" height="18" rx="1" fill="#ffffff" />
+  <rect x="43" y="30.5" width="8" height="3" rx="1.5" fill="#c6ccd8" />
+  <rect x="42" y="32" width="10" height="14" rx="3" fill="#8b93a7" />
+  <rect x="42" y="37.5" width="10" height="3" fill="#3a4152" />
+
+  <!-- yellow L -->
+  <path d="M18 21 V45 H30" fill="none" stroke="#ffe81f" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

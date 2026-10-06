@@ -1,0 +1,1351 @@
+/* =========================================
+   CONFIGURACIÓN GENERAL
+========================================= */
+
+:root {
+  --yellow: #ffe81f;
+  --blue: #56c8ff;
+  --green: #72ff91;
+  --purple: #a977ff;
+
+  --dark: #02040b;
+  --dark-blue: #071226;
+
+  /* Duración del crawl de apertura. Debe coincidir con INTRO_DURATION en script.js */
+  --intro-duration: 4s;
+
+  --white: #ffffff;
+  --soft-white: #dbeaff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  height: 100svh;
+
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at top, #10295d 0%, #030612 40%, #000 100%);
+
+  color: white;
+
+  font-family: "Nunito", sans-serif;
+}
+
+
+/* =========================================
+   CANVAS ESTRELLAS
+========================================= */
+
+#stars {
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+
+  inset: 0;
+
+  z-index: 0;
+
+  pointer-events: none;
+}
+
+
+/* =========================================
+   LOADER · CRAWL DE APERTURA
+   Negro puro a pantalla completa; las estrellas
+   viven en una capa fija independiente del texto.
+========================================= */
+
+.loader {
+  position: fixed;
+
+  inset: 0;
+
+  z-index: 9999;
+
+  overflow: hidden;
+
+  background: #000;
+}
+
+.loader.hide {
+  opacity: 0;
+  visibility: hidden;
+
+  transition:
+    opacity 0.8s ease,
+    visibility 0.8s ease;
+}
+
+/* =========================================
+   FONDO ESTRELLADO · CUBRE TODO EL VIEWPORT
+   Capa fija inset:0 con z-index negativo, así el
+   texto se centra aparte sin recortar las estrellas.
+========================================= */
+
+.loader::before {
+  content: "";
+
+  position: fixed;
+
+  inset: 0;
+
+  z-index: -1;
+
+  pointer-events: none;
+
+  background-image:
+    radial-gradient(1.7px 1.7px at 22px 34px, rgba(255, 255, 255, 0.95), transparent),
+    radial-gradient(1.1px 1.1px at 130px 88px, rgba(255, 255, 255, 0.7), transparent),
+    radial-gradient(1.9px 1.9px at 206px 26px, rgba(255, 255, 255, 0.85), transparent),
+    radial-gradient(1px 1px at 64px 152px, rgba(255, 255, 255, 0.6), transparent),
+    radial-gradient(1.3px 1.3px at 172px 176px, rgba(255, 255, 255, 0.75), transparent),
+    radial-gradient(1px 1px at 14px 18px, rgba(255, 255, 255, 0.5), transparent),
+    radial-gradient(1px 1px at 92px 74px, rgba(255, 255, 255, 0.42), transparent),
+    radial-gradient(1px 1px at 52px 110px, rgba(255, 255, 255, 0.55), transparent);
+
+  background-size:
+    232px 210px,
+    232px 210px,
+    232px 210px,
+    232px 210px,
+    232px 210px,
+    120px 132px,
+    120px 132px,
+    120px 132px;
+
+  background-repeat: repeat;
+}
+
+
+/* =========================================
+   CRAWL DE APERTURA
+========================================= */
+
+/* =========================================
+   CRAWL DE APERTURA
+   El escenario NO recorta: el único recorte vive
+   en el .loader (viewport completo, capa externa).
+========================================= */
+
+.crawl-stage {
+  position: absolute;
+
+  inset: 0;
+
+  perspective: 1000px;
+
+  perspective-origin: 50% 42%;
+
+  pointer-events: none;
+}
+
+.crawl {
+  position: absolute;
+
+  top: 100%;
+  left: 50%;
+
+  /* Ancho propio del texto, holgado: el fondo negro/estrellas es full-bleed. */
+  width: min(88vw, 1000px);
+
+  padding-bottom: 3vh;
+
+  transform-origin: 50% 100%;
+
+  transform:
+    translateX(-50%)
+    rotateX(20deg);
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: var(--yellow);
+}
+
+.loader.intro .crawl {
+  animation:
+    crawlRise
+    var(--intro-duration)
+    linear
+    forwards;
+}
+
+.crawl-episode {
+  font-family: "Orbitron", sans-serif;
+
+  font-size: clamp(0.68rem, min(2.6vw, 2.2vh), 0.95rem);
+
+  font-weight: 700;
+
+  line-height: 1.1;
+
+  letter-spacing: 0.34em;
+
+  text-indent: 0.34em;
+
+  color: var(--yellow);
+}
+
+.crawl-title {
+  margin-top: 10px;
+
+  font-family: "Orbitron", sans-serif;
+
+  font-size: clamp(1.25rem, min(6.6vw, 5.6vh), 2.5rem);
+
+  font-weight: 900;
+
+  letter-spacing: 0.06em;
+
+  line-height: 1.15;
+
+  text-indent: 0.06em;
+
+  text-shadow:
+    0 0 16px rgba(255, 232, 31, 0.4);
+}
+
+.crawl-line {
+  margin-top: 12px;
+
+  font-size: clamp(0.9rem, min(4vw, 3.4vh), 1.25rem);
+
+  line-height: 1.5;
+
+  color: #ffe873;
+
+  text-shadow:
+    0 0 10px rgba(255, 232, 31, 0.25);
+}
+
+.crawl-status {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 22px;
+
+  font-family: "Orbitron", sans-serif;
+
+  font-size: 0.6rem;
+
+  letter-spacing: 0.35em;
+
+  text-indent: 0.35em;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #6f8098;
+}
+
+
+/* =========================================
+   CRAWL · PANTALLAS CHICAS
+========================================= */
+
+@media (max-width: 380px) {
+
+  .crawl-title {
+    letter-spacing: 0.03em;
+
+    text-indent: 0.03em;
+  }
+
+  .crawl-status {
+    font-size: 0.55rem;
+
+    letter-spacing: 0.2em;
+
+    text-indent: 0.2em;
+  }
+
+}
+
+@media (max-height: 560px) {
+
+  .crawl {
+    padding-bottom: 1.5vh;
+  }
+
+  .crawl-title {
+    margin-top: 4px;
+  }
+
+  .crawl-line {
+    margin-top: 7px;
+  }
+
+}
+
+
+/* =========================================
+   CONTENEDOR
+========================================= */
+
+.invitation {
+  position: relative;
+
+  z-index: 2;
+
+  height: 100vh;
+  height: 100svh;
+
+  overflow: hidden;
+
+  opacity: 0;
+}
+
+.invitation.active {
+  opacity: 1;
+
+  transition: opacity 1.2s ease;
+}
+
+/*
+  Composición de una sola pantalla.
+  El grupo se centra con márgenes automáticos del
+  primer y último hijo: si el contenido no cabe
+  (zoom extremo, landscape bajo), esos márgenes se
+  anulan y la página permite scroll natural en vez
+  de recortar detalles esenciales.
+*/
+
+.hero {
+  position: relative;
+
+  z-index: 5;
+
+  width: min(94%, 620px);
+
+  height: 100vh;
+  height: 100svh;
+
+  overflow: hidden;
+
+  margin: auto;
+
+  padding: 12px 16px;
+  padding:
+    max(12px, env(safe-area-inset-top))
+    16px
+    max(12px, env(safe-area-inset-bottom));
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: clamp(3px, 0.9vh, 12px);
+
+  text-align: center;
+}
+
+.hero > :first-child {
+  margin-top: auto;
+}
+
+.hero > :last-child {
+  margin-bottom: auto;
+}
+
+
+/* =========================================
+   TEXTO INTRO
+========================================= */
+
+.galaxy-text {
+  font-style: italic;
+
+  font-size: clamp(0.82rem, min(3.6vw, 2.4vh), 1.05rem);
+
+  line-height: 1.4;
+
+  color: #9aa8bb;
+}
+
+
+/* =========================================
+   TÍTULO
+========================================= */
+
+.invite-title {
+  font-family: "Orbitron", sans-serif;
+
+  font-size: clamp(1.1rem, min(6vw, 4.6vh), 2.2rem);
+
+  font-weight: 900;
+
+  letter-spacing: clamp(1px, 0.6vw, 4px);
+
+  text-indent: clamp(1px, 0.6vw, 4px);
+
+  line-height: 1.1;
+
+  color: var(--white);
+}
+
+
+/* =========================================
+   NOMBRE Y EDAD
+========================================= */
+
+.name {
+  font-family: "Orbitron", sans-serif;
+
+  font-weight: 900;
+
+  font-size: clamp(2.2rem, min(17vw, 12vh), 5rem);
+
+  letter-spacing: clamp(2px, 1vw, 6px);
+
+  line-height: 1;
+
+  color: var(--yellow);
+
+  text-shadow:
+    0 0 10px rgba(255, 232, 31, 0.3),
+    0 0 35px rgba(255, 232, 31, 0.12);
+}
+
+.celebrate {
+  font-family: "Orbitron", sans-serif;
+
+  font-weight: 700;
+
+  font-size: clamp(0.78rem, min(4vw, 2.6vh), 1.1rem);
+
+  letter-spacing: 0.3em;
+
+  text-indent: 0.3em;
+
+  text-transform: uppercase;
+
+  color: #bac7db;
+}
+
+.age {
+  font-family: "Orbitron", sans-serif;
+
+  font-weight: 900;
+
+  font-size: clamp(1.05rem, min(6.5vw, 5vh), 2rem);
+
+  letter-spacing: 0.04em;
+
+  line-height: 1;
+
+  color: var(--white);
+}
+
+.age sup {
+  font-size: 0.5em;
+
+  vertical-align: super;
+}
+
+
+/* =========================================
+   TARJETAS
+========================================= */
+
+.event-info {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns: 1fr;
+
+  gap: clamp(3px, 0.8vh, 9px);
+}
+
+.info-card {
+  min-height: clamp(38px, 6.4vh, 52px);
+
+  padding: clamp(5px, 1vh, 10px) clamp(10px, 3vw, 16px);
+
+  display: flex;
+
+  align-items: center;
+
+  gap: clamp(8px, 2.4vw, 14px);
+
+  text-align: left;
+
+  border:
+    1px solid rgba(130, 180, 255, 0.12);
+
+  border-radius: 14px;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(17, 37, 76, 0.7),
+      rgba(4, 11, 26, 0.7)
+    );
+
+  backdrop-filter: blur(10px);
+
+  box-shadow:
+    inset 0 1px rgba(255,255,255,0.04),
+    0 15px 40px rgba(0,0,0,0.15);
+}
+
+.info-card .icon {
+  width: clamp(30px, 8.2vh, 42px);
+  height: clamp(30px, 8.2vh, 42px);
+
+  flex-shrink: 0;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background:
+    rgba(86, 200, 255, 0.1);
+
+  color: var(--blue);
+
+  font-size: clamp(0.9rem, 2.4vh, 1.35rem);
+
+  border:
+    1px solid rgba(86, 200, 255, 0.3);
+
+  box-shadow:
+    0 0 20px rgba(86, 200, 255, 0.1);
+}
+
+.label {
+  display: block;
+
+  margin-bottom: 1px;
+
+  font-family: "Orbitron", sans-serif;
+
+  font-size: clamp(0.5rem, 1.5vh, 0.58rem);
+
+  letter-spacing: clamp(1.5px, 0.45vw, 3px);
+
+  color: var(--blue);
+}
+
+.info-card strong {
+  font-size: clamp(0.86rem, 2.5vh, 1.1rem);
+
+  line-height: 1.25;
+
+  color: white;
+}
+
+.info-card small {
+  color: #aebbd0;
+
+  font-size: clamp(0.72rem, 2vh, 0.85rem);
+}
+
+
+/* =========================================
+   SUGERENCIA DE REGALO
+========================================= */
+
+.gift {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: clamp(4px, 0.8vw, 8px);
+
+  font-size: clamp(0.72rem, 2.2vh, 0.98rem);
+
+  line-height: 1.35;
+
+  color: #c4cee0;
+}
+
+.gift strong {
+  color: white;
+}
+
+.gift-icon {
+  width: clamp(14px, 2.4vh, 20px);
+  height: clamp(14px, 2.4vh, 20px);
+
+  flex-shrink: 0;
+
+  color: var(--yellow);
+
+  filter:
+    drop-shadow(0 0 6px rgba(255, 232, 31, 0.35));
+}
+
+
+/* =========================================
+   BOTÓN
+========================================= */
+
+.cta-container {
+  width: 100%;
+}
+
+.confirm-button {
+  position: relative;
+
+  width: 100%;
+
+  min-height: clamp(44px, 7vh, 56px);
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  border-radius: 10px;
+
+  background: var(--yellow);
+
+  text-decoration: none;
+
+  color: #050608;
+
+  font-family: "Orbitron", sans-serif;
+
+  font-size: clamp(0.66rem, 1.9vh, 0.78rem);
+  font-weight: 900;
+
+  letter-spacing: clamp(1px, 0.5vw, 2px);
+
+  box-shadow:
+    0 10px 35px rgba(255, 232, 31, 0.12);
+
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.confirm-button span {
+  position: relative;
+
+  z-index: 2;
+}
+
+.confirm-button:hover {
+  transform: translateY(-3px);
+
+  box-shadow:
+    0 15px 45px rgba(255, 232, 31, 0.25);
+}
+
+.button-glow {
+  position: absolute;
+
+  width: 80px;
+  height: 200%;
+
+  top: -50%;
+  left: -120px;
+
+  background:
+    rgba(255,255,255,0.45);
+
+  filter: blur(15px);
+
+  transform: rotate(20deg);
+
+  animation:
+    buttonGlow 4s infinite;
+}
+
+
+/* =========================================
+   PLANETAS
+========================================= */
+
+.planet {
+  position: absolute;
+
+  border-radius: 50%;
+
+  opacity: 0.25;
+
+  pointer-events: none;
+}
+
+.planet-one {
+  width: 350px;
+  height: 350px;
+
+  top: 120px;
+  right: -230px;
+
+  background:
+    radial-gradient(
+      circle at 35% 30%,
+      #6285aa,
+      #10284e 50%,
+      #030816 75%
+    );
+
+  box-shadow:
+    inset -70px -50px 100px rgba(0,0,0,0.8),
+    0 0 80px rgba(30, 105, 220, 0.1);
+}
+
+.planet-two {
+  width: 150px;
+  height: 150px;
+
+  top: 55%;
+  left: -100px;
+
+  background:
+    radial-gradient(
+      circle at 40% 30%,
+      #643a9b,
+      #1c1234 60%,
+      #05030c
+    );
+
+  box-shadow:
+    inset -35px -30px 50px #000;
+}
+
+
+/* =========================================
+   ESTRELLAS DECORATIVAS
+========================================= */
+
+.floating-star {
+  position: absolute;
+
+  z-index: 1;
+
+  color: var(--yellow);
+
+  animation:
+    floating 4s ease-in-out infinite;
+
+  text-shadow:
+    0 0 12px currentColor;
+}
+
+.star-one {
+  top: 14%;
+  left: 8%;
+
+  font-size: 1rem;
+}
+
+.star-two {
+  top: 32%;
+  right: 7%;
+
+  color: var(--blue);
+
+  animation-delay: 1.3s;
+}
+
+.star-three {
+  top: 64%;
+  right: 10%;
+
+  font-size: 0.7rem;
+
+  animation-delay: 2s;
+}
+
+
+/* =========================================
+   SABLES DECORATIVOS
+========================================= */
+
+.decorative-saber {
+  position: absolute;
+
+  z-index: 1;
+
+  display: flex;
+
+  opacity: 0.35;
+
+  pointer-events: none;
+}
+
+.saber-left {
+  top: 38%;
+  left: -100px;
+
+  transform: rotate(-35deg);
+}
+
+.saber-right {
+  top: 74%;
+  right: -130px;
+
+  transform: rotate(145deg);
+}
+
+.lightsaber .handle {
+  width: 55px;
+  height: 12px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #292929,
+      #a5a5a5,
+      #363636
+    );
+
+  border-radius: 4px;
+}
+
+.lightsaber .blade {
+  width: 280px;
+  height: 6px;
+
+  margin-top: 3px;
+
+  background: white;
+
+  border-radius: 20px;
+}
+
+.blade.blue {
+  box-shadow:
+    0 0 5px white,
+    0 0 15px #2fbfff,
+    0 0 40px #2fbfff;
+}
+
+.blade.green {
+  box-shadow:
+    0 0 5px white,
+    0 0 15px #5bff75,
+    0 0 40px #5bff75;
+}
+
+
+/* =========================================
+   FONDO ESPACIAL SVG
+========================================= */
+
+.space-art {
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  overflow: hidden;
+
+  pointer-events: none;
+}
+
+.space-art svg {
+  position: absolute;
+
+  display: block;
+
+  pointer-events: none;
+}
+
+.art-deathstar {
+  top: -2%;
+  right: -3%;
+
+  width: clamp(104px, 27vw, 190px);
+
+  aspect-ratio: 1 / 1;
+
+  opacity: 0.5;
+
+  animation: dsDrift 90s ease-in-out infinite;
+}
+
+.art-ship {
+  left: 0;
+
+  opacity: 0.45;
+
+  will-change: transform;
+}
+
+.art-tie {
+  aspect-ratio: 120 / 84;
+}
+
+.art-tie-a {
+  top: 16%;
+
+  width: clamp(56px, 15vw, 92px);
+
+  animation: shipCrossLtr 28s linear infinite;
+
+  animation-delay: -6s;
+}
+
+.art-xwing {
+  top: 36%;
+
+  width: clamp(72px, 18vw, 110px);
+
+  aspect-ratio: 140 / 90;
+
+  opacity: 0.5;
+
+  animation: shipCrossRtl 40s linear infinite;
+
+  animation-delay: -22s;
+}
+
+.art-tie-b {
+  top: 60%;
+
+  width: clamp(52px, 13vw, 84px);
+
+  animation: shipCrossLtrLow 34s linear infinite;
+
+  animation-delay: -14s;
+}
+
+
+/* =========================================
+   ANIMACIONES ENTRADA
+========================================= */
+
+.reveal {
+  opacity: 0;
+
+  transform:
+    translateY(35px)
+    scale(0.97);
+
+  transition:
+    opacity 0.9s ease,
+    transform 0.9s cubic-bezier(.17,.67,.25,1);
+}
+
+.reveal.visible {
+  opacity: 1;
+
+  transform:
+    translateY(0)
+    scale(1);
+}
+
+
+/* =========================================
+   KEYFRAMES
+========================================= */
+
+@keyframes crawlRise {
+
+  0% {
+    opacity: 0;
+
+    transform:
+      translateX(-50%)
+      rotateX(20deg)
+      translateY(0);
+  }
+
+  6% {
+    opacity: 1;
+  }
+
+  74% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+
+    transform:
+      translateX(-50%)
+      rotateX(20deg)
+      translateY(calc(-100vh - 100%));
+  }
+}
+
+
+@keyframes floating {
+
+  0%,
+  100% {
+    transform:
+      translateY(0)
+      rotate(0deg);
+  }
+
+  50% {
+    transform:
+      translateY(-15px)
+      rotate(15deg);
+  }
+}
+
+
+@keyframes buttonGlow {
+
+  0% {
+    left: -120px;
+  }
+
+  35%,
+  100% {
+    left: calc(100% + 120px);
+  }
+}
+
+
+@keyframes dsDrift {
+
+  0%,
+  100% {
+    transform:
+      translate3d(0, 0, 0)
+      rotate(0deg);
+  }
+
+  50% {
+    transform:
+      translate3d(-8px, 12px, 0)
+      rotate(-2.5deg);
+  }
+}
+
+
+@keyframes shipCrossLtr {
+
+  0% {
+    transform:
+      translate3d(-30vw, 42px, 0)
+      rotate(-2deg);
+  }
+
+  30% {
+    transform:
+      translate3d(26vw, 8px, 0)
+      rotate(1.2deg);
+  }
+
+  65% {
+    transform:
+      translate3d(70vw, -26px, 0)
+      rotate(-1.2deg);
+  }
+
+  100% {
+    transform:
+      translate3d(118vw, -52px, 0)
+      rotate(2deg);
+  }
+}
+
+
+@keyframes shipCrossLtrLow {
+
+  0% {
+    transform:
+      translate3d(-30vw, -32px, 0)
+      rotate(1.6deg);
+  }
+
+  40% {
+    transform:
+      translate3d(40vw, 30px, 0)
+      rotate(-1.6deg);
+  }
+
+  80% {
+    transform:
+      translate3d(88vw, -22px, 0)
+      rotate(1.4deg);
+  }
+
+  100% {
+    transform:
+      translate3d(118vw, 24px, 0)
+      rotate(-1.2deg);
+  }
+}
+
+
+@keyframes shipCrossRtl {
+
+  0% {
+    transform:
+      translate3d(118vw, -44px, 0)
+      rotate(2deg);
+  }
+
+  35% {
+    transform:
+      translate3d(70vw, -6px, 0)
+      rotate(-1.2deg);
+  }
+
+  70% {
+    transform:
+      translate3d(28vw, 26px, 0)
+      rotate(1.2deg);
+  }
+
+  100% {
+    transform:
+      translate3d(-30vw, 54px, 0)
+      rotate(-2deg);
+  }
+}
+
+
+@keyframes jediFloat {
+
+  0%,
+  100% {
+    transform:
+      translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform:
+      translate3d(0, -10px, 0);
+  }
+}
+
+
+/* =========================================
+   DESKTOP
+========================================= */
+
+@media (min-width: 560px) {
+
+  .event-info {
+    grid-template-columns:
+      repeat(3, 1fr);
+  }
+
+  .info-card {
+    min-height: clamp(56px, 8.6vh, 92px);
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    text-align: center;
+
+    gap: clamp(4px, 1vh, 8px);
+  }
+
+}
+
+
+@media (min-width: 1000px) {
+
+  .art-deathstar {
+    top: 6%;
+    right: 3%;
+
+    width: clamp(200px, 20vw, 300px);
+
+    opacity: 0.62;
+  }
+
+  .art-tie-a {
+    top: 14%;
+
+    width: 120px;
+  }
+
+  .art-xwing {
+    top: 40%;
+
+    width: 150px;
+  }
+
+  .art-tie-b {
+    top: 66%;
+
+    width: 110px;
+  }
+
+}
+
+
+/* =========================================
+   JEDI GUARDIÁN
+========================================= */
+
+.jedi-guardian {
+  flex: 0 1 auto;
+
+  min-height: 0;
+
+  height: clamp(115px, 24vh, 416px);
+
+  margin: clamp(2px, 0.4vh, 8px) 0;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+
+  pointer-events: none;
+}
+
+.jedi-image {
+  display: block;
+
+  width: auto;
+
+  height: 100%;
+
+  max-width: min(83vw, 304px);
+
+  object-fit: contain;
+
+  animation: jediFloat 7s ease-in-out infinite;
+
+  filter:
+    drop-shadow(0 16px 24px rgba(0, 0, 0, 0.45))
+    drop-shadow(0 0 18px rgba(114, 255, 145, 0.28));
+}
+
+/* =========================================
+   PANTALLAS BAJAS (LANDSCAPE / CORTO)
+========================================= */
+
+@media (max-height: 500px) {
+
+  .hero {
+    padding:
+      max(4px, env(safe-area-inset-top))
+      12px
+      max(4px, env(safe-area-inset-bottom));
+
+    gap: 3px;
+  }
+
+  .galaxy-text {
+    font-size: 0.72rem;
+  }
+
+  .invite-title {
+    font-size: clamp(0.95rem, 4vh, 1.3rem);
+  }
+
+  .name {
+    font-size: clamp(1.6rem, 9vh, 2.6rem);
+  }
+
+  .celebrate {
+    font-size: clamp(0.6rem, 2vh, 0.8rem);
+
+    letter-spacing: 0.15em;
+    text-indent: 0.15em;
+  }
+
+  .age {
+    font-size: clamp(0.8rem, 3.6vh, 1.2rem);
+  }
+
+  .info-card {
+    min-height: clamp(30px, 5.6vh, 44px);
+  }
+
+  .info-card .icon {
+    width: clamp(26px, 6.4vh, 36px);
+    height: clamp(26px, 6.4vh, 36px);
+  }
+
+  .gift {
+    font-size: 0.72rem;
+  }
+}
+
+/* =========================================
+   ACCESIBILIDAD
+========================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+
+    transition-duration: 0.01ms !important;
+  }
+
+  .art-deathstar,
+  .art-ship,
+  .jedi-image {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  .art-ship {
+    will-change: auto;
+  }
+
+  .art-tie-a {
+    left: 8%;
+    top: 16%;
+  }
+
+  .art-xwing {
+    left: 52%;
+    top: 36%;
+  }
+
+  .art-tie-b {
+    left: 24%;
+    top: 60%;
+  }
+
+  /* Crawl estático y legible, visible durante la misma duración */
+
+  .crawl-stage {
+    display: flex;
+
+    overflow-y: auto;
+
+    padding: 6vh 0 9vh;
+  }
+
+  .crawl,
+  .loader.intro .crawl {
+    position: static;
+
+    margin: auto;
+
+    padding-bottom: 0;
+
+    opacity: 1;
+
+    transform: none !important;
+
+    animation: none !important;
+  }
+
+}

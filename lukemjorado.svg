@@ -1,0 +1,1630 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1024"
+   height="1536"
+   viewBox="0 0 1024 1536"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg173"
+   sodipodi:docname="luke_chibi_mejorado.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview173"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1024"
+       height="1536"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <title
+     id="title">Luke Skywalker — ilustración chibi vectorial</title>
+  <desc
+     id="desc">Reconstrucción vectorial de la referencia, realizada con curvas Bézier, formas y degradados editables. No contiene imágenes rasterizadas ni recursos externos.</desc>
+  <defs
+     id="defs56">
+    <linearGradient
+       id="hair"
+       x1="342.06155"
+       y1="321.47495"
+       x2="689.10834"
+       y2="899.88623"
+       gradientTransform="scale(1.2177081,0.8212149)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#e7bb52"
+         offset="0"
+         id="stop1" />
+      <stop
+         offset=".53"
+         stop-color="#dcae47"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#c5902d"
+         id="stop3" />
+    </linearGradient>
+    <linearGradient
+       id="hairFront"
+       x1="187.61958"
+       y1="109.02735"
+       x2="636.22284"
+       y2="707.16498"
+       gradientTransform="scale(1.2472046,0.80179309)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#e5b84d"
+         offset="0"
+         id="stop4" />
+      <stop
+         offset=".58"
+         stop-color="#d9aa42"
+         id="stop5" />
+      <stop
+         offset="1"
+         stop-color="#e8bb52"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="hairLight"
+       x1="345.54807"
+       y1="201.66515"
+       x2="458.63654"
+       y2="363.22009"
+       gradientTransform="scale(1.114172,0.89752747)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#f9d982"
+         offset="0"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#edc466"
+         id="stop8" />
+    </linearGradient>
+    <linearGradient
+       id="hairShade"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         stop-color="#c58f2d"
+         offset="0"
+         id="stop9" />
+      <stop
+         offset="1"
+         stop-color="#d6a641"
+         id="stop10" />
+    </linearGradient>
+    <radialGradient
+       id="skin"
+       cx="0.47"
+       cy="0.47999999"
+       r="0.66000003">
+      <stop
+         stop-color="#ffe6d1"
+         offset="0"
+         id="stop11" />
+      <stop
+         offset=".72"
+         stop-color="#ffdabf"
+         id="stop12" />
+      <stop
+         offset="1"
+         stop-color="#ffc8a6"
+         id="stop13" />
+    </radialGradient>
+    <linearGradient
+       id="skinShade"
+       x1="0.2"
+       y1="0"
+       x2="0.80000001"
+       y2="1">
+      <stop
+         stop-color="#ffd5b7"
+         offset="0"
+         id="stop14" />
+      <stop
+         offset="1"
+         stop-color="#f6ae85"
+         id="stop15" />
+    </linearGradient>
+    <radialGradient
+       id="cheek">
+      <stop
+         stop-color="#ffb495"
+         stop-opacity=".42"
+         offset="0"
+         id="stop16" />
+      <stop
+         offset="1"
+         stop-color="#ffba99"
+         stop-opacity="0"
+         id="stop17" />
+    </radialGradient>
+    <linearGradient
+       id="iris"
+       x1="0.30000001"
+       y1="0"
+       x2="0.64999998"
+       y2="1">
+      <stop
+         stop-color="#075d85"
+         offset="0"
+         id="stop18" />
+      <stop
+         offset=".38"
+         stop-color="#0085b7"
+         id="stop19" />
+      <stop
+         offset=".75"
+         stop-color="#00a0cc"
+         id="stop20" />
+      <stop
+         offset="1"
+         stop-color="#43cfe6"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="pupil"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         stop-color="#072b38"
+         offset="0"
+         id="stop22" />
+      <stop
+         offset="1"
+         stop-color="#031c25"
+         id="stop23" />
+    </linearGradient>
+    <linearGradient
+       id="eyeWhite"
+       x1="0"
+       y1="0"
+       x2="0.60000002"
+       y2="1">
+      <stop
+         stop-color="#dde7e9"
+         offset="0"
+         id="stop24" />
+      <stop
+         offset=".36"
+         stop-color="#fff"
+         id="stop25" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         id="stop26" />
+    </linearGradient>
+    <linearGradient
+       id="robe"
+       x1="0.1"
+       y1="0.1"
+       x2="0.94999999"
+       y2="0.89999998">
+      <stop
+         stop-color="#f4e5c9"
+         offset="0"
+         id="stop27" />
+      <stop
+         offset=".5"
+         stop-color="#ead3af"
+         id="stop28" />
+      <stop
+         offset="1"
+         stop-color="#d4b58d"
+         id="stop29" />
+    </linearGradient>
+    <linearGradient
+       id="robeLight"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="1">
+      <stop
+         stop-color="#fff5df"
+         offset="0"
+         id="stop30" />
+      <stop
+         offset=".55"
+         stop-color="#f0debd"
+         id="stop31" />
+      <stop
+         offset="1"
+         stop-color="#e6cba5"
+         id="stop32" />
+    </linearGradient>
+    <linearGradient
+       id="robeShade"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0.60000002">
+      <stop
+         stop-color="#d8bc92"
+         offset="0"
+         id="stop33" />
+      <stop
+         offset="1"
+         stop-color="#b99a71"
+         id="stop34" />
+    </linearGradient>
+    <linearGradient
+       id="tunic"
+       x1="679.59845"
+       y1="575.49512"
+       x2="875.50745"
+       y2="931.6933"
+       gradientTransform="scale(0.8026431,1.2458838)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff9e9"
+         offset="0"
+         id="stop35" />
+      <stop
+         offset=".6"
+         stop-color="#fcf2dc"
+         id="stop36" />
+      <stop
+         offset="1"
+         stop-color="#f6e7ca"
+         id="stop37" />
+    </linearGradient>
+    <linearGradient
+       id="leather"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0.80000001">
+      <stop
+         stop-color="#845637"
+         offset="0"
+         id="stop38" />
+      <stop
+         offset=".45"
+         stop-color="#69422c"
+         id="stop39" />
+      <stop
+         offset="1"
+         stop-color="#4e2f20"
+         id="stop40" />
+    </linearGradient>
+    <linearGradient
+       id="boot"
+       x1="0.85000002"
+       y1="0.15000001"
+       x2="0.050000001"
+       y2="0.80000001">
+      <stop
+         stop-color="#825439"
+         offset="0"
+         id="stop41" />
+      <stop
+         offset=".55"
+         stop-color="#69412d"
+         id="stop42" />
+      <stop
+         offset="1"
+         stop-color="#563322"
+         id="stop43" />
+    </linearGradient>
+    <linearGradient
+       id="metal"
+       x1="0"
+       y1="0"
+       x2="1"
+       y2="0.30000001">
+      <stop
+         stop-color="#999e98"
+         offset="0"
+         id="stop44" />
+      <stop
+         offset=".26"
+         stop-color="#d3d6cf"
+         id="stop45" />
+      <stop
+         offset=".55"
+         stop-color="#b6b9b3"
+         id="stop46" />
+      <stop
+         offset=".8"
+         stop-color="#e0e1db"
+         id="stop47" />
+      <stop
+         offset="1"
+         stop-color="#91938d"
+         id="stop48" />
+    </linearGradient>
+    <linearGradient
+       id="buckle"
+       x1="539.79041"
+       y1="1066.0157"
+       x2="608.92529"
+       y2="1135.1508"
+       gradientTransform="scale(1.1150793,0.89679724)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#d2d1c9"
+         offset="0"
+         id="stop49" />
+      <stop
+         offset=".44"
+         stop-color="#a9aaa5"
+         id="stop50" />
+      <stop
+         offset=".8"
+         stop-color="#bcbdb8"
+         id="stop51" />
+      <stop
+         offset="1"
+         stop-color="#7e817b"
+         id="stop52" />
+    </linearGradient>
+    <linearGradient
+       id="blade"
+       x1="84.529251"
+       y1="71.392448"
+       x2="464.4924"
+       y2="71.392448"
+       gradientTransform="scale(0.59742635,1.6738465)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#23e640"
+         offset="0"
+         id="stop53" />
+      <stop
+         offset=".5"
+         stop-color="#65fa69"
+         id="stop54" />
+      <stop
+         offset="1"
+         stop-color="#29e848"
+         id="stop55" />
+    </linearGradient>
+    <filter
+       id="saberGlow"
+       x="-0.36588235"
+       y="-0.1074266"
+       width="1.7317647"
+       height="1.2148532"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         stdDeviation="13"
+         id="feGaussianBlur55" />
+    </filter>
+    <clipPath
+       id="leftEyeClip">
+      <path
+         d="m 431,576 c -24,-14 -30,-45 -17,-74 16,-34 46,-49 71,-39 32,4 54,35 55,67 1,19 -5,36 -17,48 -31,-8 -62,-7 -92,-2 z"
+         id="path55" />
+    </clipPath>
+    <clipPath
+       id="rightEyeClip">
+      <path
+         d="m 693,583 c -16,-17 -15,-41 -8,-65 10,-32 33,-52 60,-51 28,0 51,21 63,47 12,32 -3,60 -24,75 -31,-11 -61,-11 -91,-6 z"
+         id="path56" />
+    </clipPath>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#hairShade"
+       id="linearGradient2"
+       x1="492.86917"
+       y1="300.81995"
+       x2="612.07373"
+       y2="420.02454"
+       gradientTransform="scale(0.6241078,1.6022873)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeShade"
+       id="linearGradient3"
+       x1="341.67667"
+       y1="1175.4799"
+       x2="663.87531"
+       y2="1368.799"
+       gradientTransform="scale(1.2321591,0.81158352)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeLight"
+       id="linearGradient4"
+       x1="395.44678"
+       y1="1149.4463"
+       x2="566.97467"
+       y2="1320.9742"
+       gradientTransform="scale(1.045902,0.95611249)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeLight"
+       id="linearGradient5"
+       x1="597.15564"
+       y1="1157.8606"
+       x2="751.84088"
+       y2="1312.5458"
+       gradientTransform="scale(1.0365806,0.9647103)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#boot"
+       id="linearGradient6"
+       x1="531.11456"
+       y1="1223.28"
+       x2="364.92593"
+       y2="1358.3083"
+       gradientTransform="scale(0.96216272,1.0393252)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#leather"
+       id="linearGradient7"
+       x1="247.08044"
+       y1="2095.7708"
+       x2="325.53561"
+       y2="2158.5349"
+       gradientTransform="scale(1.609655,0.62125114)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#boot"
+       id="linearGradient8"
+       x1="834.91705"
+       y1="1268.1744"
+       x2="671.2691"
+       y2="1401.1384"
+       gradientTransform="scale(0.99237401,1.0076846)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#leather"
+       id="linearGradient9"
+       x1="424.7684"
+       y1="2059.9932"
+       x2="500.73105"
+       y2="2120.7632"
+       gradientTransform="scale(1.5773302,0.63398268)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robe"
+       id="linearGradient10"
+       x1="414.62137"
+       y1="906.36963"
+       x2="594.35419"
+       y2="1075.5299"
+       gradientTransform="scale(0.89597628,1.116101)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeLight"
+       id="linearGradient11"
+       x1="945.50458"
+       y1="743.9837"
+       x2="1129.3527"
+       y2="927.83179"
+       gradientTransform="scale(0.76149816,1.3132008)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#skin"
+       id="radialGradient11"
+       cx="819.53192"
+       cy="1103.0664"
+       r="61.122379"
+       gradientTransform="scale(1.0747348,0.93046208)"
+       fx="819.53192"
+       fy="1103.0664"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#skinShade"
+       id="linearGradient12"
+       x1="551.39539"
+       y1="708.11438"
+       x2="615.58417"
+       y2="815.09564"
+       gradientTransform="scale(1.0188696,0.98147988)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robe"
+       id="linearGradient13"
+       x1="380.73605"
+       y1="654.87262"
+       x2="583.35059"
+       y2="845.56866"
+       gradientTransform="scale(0.85738532,1.1663367)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeLight"
+       id="linearGradient14"
+       x1="561.00299"
+       y1="439.65005"
+       x2="690.83099"
+       y2="569.47809"
+       gradientTransform="scale(0.56149432,1.7809619)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeShade"
+       id="linearGradient15"
+       x1="630.09314"
+       y1="376.61099"
+       x2="728.80774"
+       y2="435.83972"
+       gradientTransform="scale(0.47612007,2.1003105)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robe"
+       id="linearGradient16"
+       x1="810.07648"
+       y1="445.78787"
+       x2="924.49902"
+       y2="553.47968"
+       gradientTransform="scale(0.59962049,1.6677215)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#leather"
+       id="linearGradient17"
+       x1="256.03653"
+       y1="1743.8918"
+       x2="396.18283"
+       y2="1856.0089"
+       gradientTransform="scale(1.8552041,0.53902425)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#leather"
+       id="linearGradient18"
+       x1="1013.7373"
+       y1="659.05634"
+       x2="1080.9738"
+       y2="712.84546"
+       gradientTransform="scale(0.70037869,1.427799)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#leather"
+       id="linearGradient19"
+       x1="478.37906"
+       y1="878.21423"
+       x2="559.65918"
+       y2="943.23834"
+       gradientTransform="scale(0.93336026,1.0713977)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robe"
+       id="linearGradient20"
+       x1="826.55475"
+       y1="624.00159"
+       x2="1075.4745"
+       y2="858.27905"
+       gradientTransform="scale(0.82029919,1.2190674)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeShade"
+       id="linearGradient21"
+       x1="1223.1724"
+       y1="403.85312"
+       x2="1444.9065"
+       y2="536.89355"
+       gradientTransform="scale(0.55020862,1.8174924)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#robeLight"
+       id="linearGradient22"
+       x1="1097.5884"
+       y1="436.49603"
+       x2="1392.3884"
+       y2="731.29596"
+       gradientTransform="scale(0.60040719,1.6655363)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#skin"
+       id="radialGradient22"
+       cx="384.06473"
+       cy="478.52795"
+       r="64.240257"
+       gradientTransform="scale(0.884852,1.1301325)"
+       fx="384.06473"
+       fy="478.52795"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#skin"
+       id="radialGradient23"
+       cx="947.68396"
+       cy="512.03436"
+       r="66.874397"
+       gradientTransform="scale(0.90882701,1.1003194)"
+       fx="947.68396"
+       fy="512.03436"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#skin"
+       id="radialGradient24"
+       cx="571.0368"
+       cy="502.11279"
+       r="318.4675"
+       gradientTransform="scale(1.0424398,0.95928798)"
+       fx="571.0368"
+       fy="502.11279"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#cheek"
+       id="radialGradient25"
+       gradientTransform="scale(1.2493901,0.80039053)"
+       cx="346.56909"
+       cy="755.88098"
+       fx="346.56909"
+       fy="755.88098"
+       r="51.224995"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#cheek"
+       id="radialGradient26"
+       gradientTransform="scale(1.2482546,0.80111862)"
+       cx="615.25909"
+       cy="763.93182"
+       fx="615.25909"
+       fy="763.93182"
+       r="53.67495"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#eyeWhite"
+       id="linearGradient26"
+       x1="383.9762"
+       y1="487.87491"
+       x2="459.10635"
+       y2="613.09186"
+       gradientTransform="scale(1.0607125,0.94276251)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#iris"
+       id="linearGradient27"
+       x1="518.68079"
+       y1="415.7995"
+       x2="560.08148"
+       y2="534.08728"
+       gradientTransform="scale(0.89611958,1.1159225)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#pupil"
+       id="linearGradient28"
+       x1="506.46939"
+       y1="431.11392"
+       x2="586.96783"
+       y2="511.61234"
+       gradientTransform="scale(0.89442719,1.118034)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#eyeWhite"
+       id="linearGradient29"
+       x1="653.75537"
+       y1="485.8317"
+       x2="729.93536"
+       y2="612.79834"
+       gradientTransform="scale(1.0404046,0.96116449)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#iris"
+       id="linearGradient30"
+       x1="786.4823"
+       y1="425.13101"
+       x2="828.27179"
+       y2="544.52948"
+       gradientTransform="scale(0.90453403,1.1055416)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#pupil"
+       id="linearGradient31"
+       x1="791.03186"
+       y1="425.67184"
+       x2="871.28149"
+       y2="505.92145"
+       gradientTransform="scale(0.87227838,1.146423)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#hairShade"
+       id="linearGradient32"
+       x1="282.7244"
+       y1="365.46069"
+       x2="417.22134"
+       y2="499.95764"
+       gradientTransform="scale(0.9275652,1.0780913)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient33"
+       x1="-23.323809"
+       y1="1.3719887"
+       x2="23.323809"
+       y2="15.366274"
+       gradientTransform="scale(1.3719887,0.72886899)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#metal"
+       id="linearGradient34"
+       x1="-43.368378"
+       y1="19.92235"
+       x2="45.175396"
+       y2="46.485481"
+       gradientTransform="scale(0.55339859,1.8070158)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#skinShade"
+       id="linearGradient35"
+       x1="462.245"
+       y1="530.46155"
+       x2="505.24454"
+       y2="602.12744"
+       gradientTransform="scale(0.66977469,1.4930394)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#skin"
+       id="radialGradient35"
+       cx="300.62518"
+       cy="754.36798"
+       r="67.305611"
+       gradientTransform="scale(0.88336614,1.1320334)"
+       fx="300.62518"
+       fy="754.36798"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#skin"
+       id="radialGradient36"
+       cx="390.0481"
+       cy="636.08734"
+       r="28.209118"
+       gradientTransform="scale(0.78255592,1.277864)"
+       fx="390.0481"
+       fy="636.08734"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     id="cabello-posterior"
+     inkscape:groupmode="layer"
+     inkscape:label="Cabello posterior">
+    <path
+       fill="url(#hair)"
+       d="m 356,422 c -52,20 -84,65 -80,114 3,35 24,62 58,73 0,26 10,51 31,64 -6,-15 -3,-28 1,-37 11,37 38,68 70,79 -6,-11 -9,-21 -8,-31 33,32 65,49 103,50 h 132 c 35,9 67,-5 86,-24 -3,14 -8,23 -13,29 35,-3 68,-32 83,-62 2,18 17,31 34,34 -11,-31 5,-64 31,-95 3,14 1,25 -2,34 26,-21 38,-44 39,-73 5,10 5,21 4,31 26,-34 28,-78 11,-115 18,4 33,-1 44,-10 -30,-16 -44,-45 -54,-78 L 819,264 412,283 Z"
+       id="path58"
+       style="fill:url(#hair)" />
+    <path
+       fill="url(#hairShade)"
+       d="m 335,485 c -31,26 -38,68 -9,97 11,11 23,14 36,15 -21,25 -13,54 3,76 -8,-30 11,-48 17,-66 l -8,-125 z"
+       id="path59"
+       style="fill:url(#linearGradient2)" />
+    <path
+       fill="#bf8928"
+       opacity="0.65"
+       d="m 387,604 c 10,56 58,107 107,120 -30,-25 -48,-48 -55,-72 l 10,42 c 11,16 26,27 50,36 -46,-12 -85,-39 -112,-83 z"
+       id="path60" />
+    <path
+       fill="#bd8829"
+       opacity="0.6"
+       d="m 821,599 c 15,31 -20,93 -57,125 33,-16 53,-44 68,-78 -8,36 3,57 21,65 -12,-35 6,-62 31,-95 l 10,-36 z"
+       id="path61" />
+    <path
+       fill="#c28c2b"
+       d="m 889,495 c 36,29 51,72 36,113 7,-54 -24,-64 -36,-78 z"
+       id="path62" />
+  </g>
+  <g
+     id="capa-inferior"
+     inkscape:groupmode="layer"
+     inkscape:label="Capa inferior">
+    <path
+       fill="url(#robeShade)"
+       d="m 493,969 c -35,73 -61,160 -72,220 82,18 144,29 203,26 71,-1 128,-22 194,-12 L 806,1064 729,954 Z"
+       id="path63"
+       style="fill:url(#linearGradient3)" />
+  </g>
+  <g
+     id="piernas"
+     inkscape:groupmode="layer"
+     inkscape:label="Piernas">
+    <path
+       fill="url(#robeLight)"
+       d="m 472,1099 121,34 c -10,37 -25,68 -35,97 0,25 -11,30 -33,33 l -82,-2 c -20,-5 -34,-22 -28,-41 16,-43 37,-88 57,-121 z"
+       id="path64"
+       style="fill:url(#linearGradient4)" />
+    <path
+       fill="#d4b98f"
+       opacity="0.35"
+       d="m 420,1207 c 20,16 51,18 69,15 -12,8 -44,8 -53,4 l 15,22 c -20,-6 -31,-16 -31,-41 z m 64,30 c 21,1 36,-2 53,-7 -5,10 -30,17 -53,7 z m -1,20 46,-9 -15,14 z"
+       id="path65" />
+    <path
+       fill="url(#robeLight)"
+       d="m 619,1139 123,-22 c 9,39 24,86 36,104 6,15 -9,31 -27,38 -22,11 -76,9 -99,-3 -12,-7 -8,-22 -6,-34 -11,-31 -18,-53 -27,-83 z"
+       id="path66"
+       style="fill:url(#linearGradient5)" />
+    <path
+       fill="#d2b58b"
+       opacity="0.34"
+       d="m 667,1228 c 38,12 63,5 84,-8 -15,25 -49,27 -84,8 z m -9,22 c 22,5 46,5 68,1 l 23,7 c -36,12 -77,7 -91,-8 z"
+       id="path67" />
+  </g>
+  <g
+     id="botas"
+     inkscape:groupmode="layer"
+     inkscape:label="Botas">
+    <path
+       fill="url(#boot)"
+       d="m 419,1239 c 34,19 79,27 122,20 -10,39 -25,63 -31,98 -1,26 6,56 3,83 -12,16 -156,23 -171,1 -5,-29 12,-54 36,-70 8,-20 15,-30 20,-46 l 12,-46 z"
+       id="path68"
+       style="fill:url(#linearGradient6)" />
+    <path
+       fill="#412617"
+       d="m 341,1431 c 52,18 134,10 172,-1 l 1,16 q 0,8 -14,10 c -42,7 -115,8 -152,-1 q -10,-3 -9,-11 z"
+       id="path69" />
+    <path
+       fill="#412719"
+       d="m 409,1275 c 34,17 84,26 122,19 l -2,7 c -44,6 -86,-3 -122,-19 z m -10,51 c 32,19 76,26 112,21 l -1,7 c -43,4 -80,-6 -112,-21 z"
+       id="path70" />
+    <path
+       fill="url(#leather)"
+       d="m 406,1302 c 40,18 79,24 118,18 l -7,24 q -2,5 -10,6 c -44,4 -79,-9 -107,-20 q -4,-2 -1,-9 z"
+       id="path71"
+       style="fill:url(#linearGradient7)" />
+    <path
+       fill="#3f271c"
+       opacity="0.65"
+       d="m 394,1350 c 38,-13 82,-1 104,23 -34,-22 -69,-23 -112,-5 z"
+       id="path72" />
+    <path
+       fill="#a67b55"
+       opacity="0.7"
+       d="m 375,1375 c 46,-21 99,-6 120,21 8,10 12,26 13,38 -8,-34 -29,-53 -60,-62 -26,-8 -51,-2 -73,3 z"
+       id="path73" />
+    <path
+       fill="url(#boot)"
+       d="m 656,1260 c 41,11 88,4 119,-13 l 8,47 12,50 11,19 c 31,11 49,39 53,65 l -3,16 c -37,15 -146,10 -182,-4 -6,-18 -2,-39 1,-61 2,-37 -10,-76 -19,-119 z"
+       id="path74"
+       style="fill:url(#linearGradient8)" />
+    <path
+       fill="#412617"
+       d="m 672,1419 c 34,19 138,25 185,8 l 3,14 q 1,7 -9,10 c -46,11 -139,4 -168,-5 q -12,-4 -11,-12 z"
+       id="path75" />
+    <path
+       fill="#42291b"
+       d="m 663,1294 c 38,11 82,6 117,-12 l 2,8 c -40,18 -81,20 -117,11 z m 11,53 c 40,13 82,6 117,-11 l 2,7 c -37,18 -80,22 -119,11 z"
+       id="path76" />
+    <path
+       fill="url(#leather)"
+       d="m 670,1320 c 38,10 81,4 112,-14 l 7,22 q 3,7 -5,10 c -34,16 -74,21 -109,11 z"
+       id="path77"
+       style="fill:url(#linearGradient9)" />
+    <path
+       fill="#3d2519"
+       opacity="0.6"
+       d="m 694,1387 c 24,-33 64,-47 99,-36 l 9,10 c -39,-16 -78,3 -108,26 z"
+       id="path78" />
+    <path
+       fill="#a67b55"
+       opacity="0.7"
+       d="m 695,1426 c 6,-38 46,-67 85,-68 15,0 27,4 39,13 -53,-16 -100,11 -124,55 z"
+       id="path79" />
+  </g>
+  <g
+     id="faldones-delanteros"
+     inkscape:groupmode="layer"
+     inkscape:label="Faldones delanteros">
+    <path
+       fill="url(#robe)"
+       d="m 464,988 c -31,55 -73,114 -110,167 q -4,6 3,12 c 38,29 87,53 122,57 25,-55 51,-124 63,-204 z"
+       id="path80"
+       style="fill:url(#linearGradient10)" />
+    <path
+       fill="#b99b74"
+       opacity="0.36"
+       d="m 527,1012 15,6 c -10,77 -40,153 -63,206 l -15,-2 c 25,-62 52,-136 63,-210 z"
+       id="path81" />
+    <path
+       fill="url(#robeLight)"
+       d="m 720,977 c 29,64 63,144 97,229 l 6,12 c 7,4 31,-21 37,-31 -19,-45 -46,-129 -75,-185 z"
+       id="path82"
+       style="fill:url(#linearGradient11)" />
+  </g>
+  <g
+     id="mano-derecha"
+     inkscape:groupmode="layer"
+     inkscape:label="Mano derecha">
+    <path
+       fill="url(#skin)"
+       d="m 873,985 c 17,16 40,23 56,39 5,6 7,17 0,23 -4,4 -9,3 -14,1 9,10 1,19 -8,18 -11,-1 -19,-4 -29,-9 6,13 -8,18 -18,11 -11,-7 -19,-17 -26,-26 z"
+       id="path83"
+       style="fill:url(#radialGradient11)" />
+    <path
+       fill="none"
+       stroke="#f8b995"
+       stroke-width="4"
+       stroke-linecap="round"
+       d="m 871,1035 q 24,7 44,13 m -45,-12 q 5,8 8,21"
+       id="path84" />
+  </g>
+  <g
+     id="cuello"
+     inkscape:groupmode="layer"
+     inkscape:label="Cuello">
+    <path
+       fill="url(#skinShade)"
+       d="m 540,695 106,3 3,49 -18,53 -81,-57 z"
+       id="path85"
+       style="fill:url(#linearGradient12)" />
+    <path
+       fill="#ffc9a8"
+       d="m 553,727 c 23,21 49,30 77,30 l 1,38 -77,-48 z"
+       id="path86" />
+  </g>
+  <g
+     id="tunica"
+     inkscape:groupmode="layer"
+     inkscape:label="Tunica">
+    <path
+       fill="url(#tunic)"
+       d="m 538,718 c -12,8 -29,17 -35,36 l -17,175 -12,71 36,147 c 73,23 169,16 245,-12 q 7,-3 4,-12 L 719,1004 V 844 C 702,783 678,733 646,721 l -16,77 c -23,-30 -51,-60 -78,-81 z"
+       id="path87"
+       style="fill:url(#tunic)" />
+    <path
+       fill="#dfcbaa"
+       opacity="0.75"
+       d="m 544,720 c 31,16 62,50 86,80 l -2,10 c -29,-36 -56,-68 -85,-78 z m 102,2 c 26,24 34,51 33,80 -5,59 -30,106 -58,145 l -7,-1 c 33,-49 54,-97 60,-145 0,-27 -14,-56 -28,-68 z"
+       id="path88" />
+    <path
+       fill="none"
+       stroke="#e0ceac"
+       stroke-width="5"
+       d="m 545,758 q 37,52 64,96"
+       id="path89" />
+    <path
+       fill="none"
+       stroke="#dfcbaa"
+       stroke-width="6"
+       d="m 634,787 c -19,63 -43,119 -78,154"
+       id="path90" />
+    <path
+       fill="#e7d3b0"
+       opacity="0.5"
+       d="m 557,942 c 46,3 98,-1 137,-12 -24,14 -69,21 -103,22 l 5,60 16,146 h -9 l -13,-143 -8,-65 z"
+       id="path91" />
+    <path
+       fill="#e0cbaa"
+       opacity="0.55"
+       d="m 706,999 27,146 8,-3 -25,-145 z m -182,11 -14,131 9,4 22,-132 z"
+       id="path92" />
+    <path
+       fill="#c9ad84"
+       opacity="0.5"
+       d="m 507,1147 c 66,22 182,9 247,-12 l 2,14 c -88,31 -188,31 -253,11 z"
+       id="path93" />
+  </g>
+  <g
+     id="manga-izquierda"
+     inkscape:groupmode="layer"
+     inkscape:label="Manga izquierda">
+    <path
+       fill="url(#robe)"
+       d="m 481,736 c -28,11 -55,36 -99,47 -23,-2 -45,-4 -67,2 l -9,115 c 0,40 6,86 21,110 6,11 32,-3 47,-13 43,-27 79,-63 106,-105 21,-32 40,-81 25,-122 -6,-19 -13,-31 -24,-34 z"
+       id="path94"
+       style="fill:url(#linearGradient13)" />
+    <path
+       fill="#c3a277"
+       opacity="0.6"
+       d="m 478,738 c 20,14 29,55 24,92 -2,25 -11,44 -22,62 27,-22 37,-65 30,-102 -5,-27 -16,-47 -32,-52 z"
+       id="path95" />
+    <path
+       fill="#d4b78c"
+       opacity="0.55"
+       d="m 380,783 c 29,7 48,25 62,46 -17,-14 -35,-24 -58,-33 l -30,-8 z"
+       id="path96" />
+    <path
+       fill="url(#robeLight)"
+       d="m 315,783 c 30,30 40,77 39,119 0,43 -6,86 -22,107 -2,4 3,7 10,4 13,-5 24,-11 32,-16 16,-45 17,-96 9,-138 -6,-34 -21,-61 -38,-76 z"
+       id="path97"
+       style="fill:url(#linearGradient14)" />
+    <path
+       fill="url(#robeShade)"
+       d="m 315,791 c 22,26 31,65 32,109 0,40 -6,81 -16,98 -12,6 -30,-71 -31,-109 z"
+       id="path98"
+       style="fill:url(#linearGradient15)" />
+    <path
+       fill="#fff6de"
+       d="m 311,783 c 24,15 38,52 43,91 5,47 -3,100 -20,133 17,-33 25,-73 23,-114 -1,-49 -14,-90 -33,-110 z"
+       id="path99" />
+  </g>
+  <g
+     id="solapa-izquierda"
+     inkscape:groupmode="layer"
+     inkscape:label="Solapa izquierda">
+    <path
+       fill="url(#robe)"
+       d="m 536,721 c -17,2 -42,9 -58,17 22,17 33,68 27,104 -3,28 -14,51 -26,71 q -4,9 4,19 c 19,12 49,16 74,12 5,-52 -5,-109 -7,-160 -2,-32 -7,-53 -14,-63 z"
+       id="path100"
+       style="fill:url(#linearGradient16)" />
+    <path
+       fill="#dbc09a"
+       d="m 513,744 c 21,27 31,77 33,121 -9,-43 -20,-84 -33,-107 z m -10,131 14,-35 c -5,31 -17,56 -31,76 l -1,12 h -5 q -5,-4 0,-14 z"
+       id="path101" />
+    <path
+       fill="#f9eed5"
+       opacity="0.66"
+       d="m 529,728 c 13,22 18,67 21,115 l 7,93 C 553,874 538,804 523,764 l 8,11 z"
+       id="path102" />
+  </g>
+  <g
+     id="cinturon"
+     inkscape:groupmode="layer"
+     inkscape:label="Cinturon">
+    <path
+       fill="#dfc8a5"
+       d="m 487,934 c 63,17 152,17 232,5 l 13,70 c -83,20 -181,18 -256,-3 z"
+       id="path103" />
+    <path
+       fill="url(#leather)"
+       d="m 482,940 c 72,21 160,26 242,6 l 11,57 c -85,23 -187,11 -260,-9 z"
+       id="path104"
+       style="fill:url(#linearGradient17)" />
+    <path
+       fill="#4b2b1c"
+       opacity="0.55"
+       d="m 533,952 24,5 -9,51 -24,-4 z m 161,1 24,-5 11,57 -24,5 z"
+       id="path105" />
+    <path
+       fill="url(#leather)"
+       d="m 724,942 q 12,-4 17,8 l 16,76 q 1,8 -9,9 l -15,2 q -8,-1 -10,-7 l -13,-73 q 0,-12 14,-15 z"
+       id="path106"
+       style="fill:url(#linearGradient18)" />
+    <path
+       fill="#4f2e1d"
+       d="m 472,945 43,4 q 13,2 10,16 l -7,59 q -1,10 -16,9 l -51,-7 q -8,-1 -6,-11 l 11,-58 q 2,-13 16,-12 z"
+       id="path107" />
+    <path
+       fill="url(#leather)"
+       d="m 468,941 47,7 q 9,3 7,15 l -10,55 q -1,10 -14,10 l -47,-8 q -6,-1 -4,-9 l 9,-60 q 2,-11 12,-10 z"
+       id="path108"
+       style="fill:url(#linearGradient19)" />
+    <path
+       fill="#412519"
+       opacity="0.6"
+       d="m 457,960 48,5 -4,16 q -3,12 -15,10 l -33,-8 z"
+       id="path109" />
+    <path
+       fill="#916345"
+       d="m 470,936 52,7 q 9,1 8,8 c -10,-2 -23,0 -26,11 l -7,17 q -2,8 -12,5 l -31,-7 q -5,-2 -3,-9 l 5,-23 q 2,-9 14,-9 z"
+       id="path110" />
+    <path
+       fill="#604029"
+       d="m 470,971 q 4,-5 9,0 l -4,23 q -5,8 -10,0 z"
+       id="path111" />
+    <path
+       fill="#a47d57"
+       d="m 468,978 q 4,-3 8,1 l -2,12 q -4,6 -8,1 z"
+       id="path112" />
+    <rect
+       x="601"
+       y="956"
+       width="78"
+       height="63"
+       rx="9"
+       fill="#4d382b"
+       opacity="0.25"
+       id="rect112" />
+    <path
+       fill="url(#buckle)"
+       d="m 611,956 h 59 q 9,0 9,10 v 42 q 0,10 -10,10 h -58 q -10,0 -9,-10 l 1,-42 q 0,-10 8,-10 z"
+       id="path113"
+       style="fill:url(#buckle)" />
+    <path
+       fill="#c6c7c2"
+       d="m 615,964 h 50 q 5,0 5,6 v 33 q 0,7 -6,7 h -49 q -6,0 -5,-6 v -34 q 0,-6 5,-6 z"
+       id="path114" />
+    <path
+       fill="#e5e4dc"
+       opacity="0.65"
+       d="m 610,958 7,6 -7,6 v 32 l -5,7 v -42 q 0,-7 5,-9 z"
+       id="path115" />
+  </g>
+  <g
+     id="manga-y-solapa-derecha"
+     inkscape:groupmode="layer"
+     inkscape:label="Manga y solapa derecha">
+    <path
+       fill="url(#robe)"
+       d="m 654,725 c 26,5 56,18 72,40 19,26 32,56 56,85 l 96,100 16,19 c 3,14 -25,61 -48,88 -12,13 -24,21 -35,25 -22,-43 -39,-92 -55,-142 -13,-49 -32,-90 -42,-133 -15,-39 -36,-70 -60,-82 z"
+       id="path116"
+       style="fill:url(#linearGradient20)" />
+    <path
+       fill="url(#robeShade)"
+       d="m 673,734 c 29,45 38,95 43,140 2,41 9,72 21,103 l 30,91 28,69 -14,-93 -27,-114 -26,-118 c -14,-40 -38,-69 -55,-78 z"
+       id="path117"
+       style="fill:url(#linearGradient21)" />
+    <path
+       fill="#fff2d6"
+       d="m 876,949 18,20 c -13,36 -47,81 -81,108 l -6,-18 c 25,-30 52,-71 69,-110 z"
+       id="path118" />
+    <path
+       fill="#cfb48d"
+       d="m 883,991 c -19,35 -46,67 -70,86 l -3,-13 c 22,-16 52,-49 73,-73 z"
+       id="path119" />
+    <path
+       fill="url(#robeLight)"
+       d="m 659,727 c 25,12 46,39 53,72 8,53 14,100 33,159 23,76 54,159 78,217 l 13,32 -12,11 c -16,-28 -43,-98 -65,-158 -22,-59 -43,-127 -47,-169 -3,-58 -26,-139 -53,-164 z"
+       id="path120"
+       style="fill:url(#linearGradient22)" />
+    <path
+       fill="#d8bc96"
+       opacity="0.65"
+       d="m 707,776 c 19,22 26,65 33,102 6,27 14,52 21,72 -18,-33 -26,-63 -31,-93 -6,-37 -12,-63 -23,-81 z"
+       id="path121" />
+  </g>
+  <g
+     id="orejas"
+     inkscape:groupmode="layer"
+     inkscape:label="Orejas">
+    <path
+       fill="url(#skin)"
+       d="m 339,488 c -28,2 -43,23 -39,53 3,33 26,57 56,57 21,0 32,-15 29,-35 l -12,-47 z"
+       id="path122"
+       style="fill:url(#radialGradient22)" />
+    <path
+       fill="#f9b990"
+       opacity="0.6"
+       d="m 320,528 c 9,-23 32,-18 42,6 -15,-6 -25,-3 -25,10 -1,12 7,18 15,21 -17,5 -31,-14 -32,-37 z"
+       id="path123" />
+    <path
+       fill="url(#skin)"
+       d="m 856,513 c 23,-11 47,9 53,31 7,31 -21,63 -50,75 -19,7 -38,-2 -41,-20 z"
+       id="path124"
+       style="fill:url(#radialGradient23)" />
+    <path
+       fill="#f8b68c"
+       opacity="0.5"
+       d="m 877,535 c 8,3 12,9 14,17 -18,-1 -27,13 -26,24 -3,9 -14,16 -26,14 6,-24 18,-45 38,-55 z"
+       id="path125" />
+  </g>
+  <g
+     id="rostro"
+     inkscape:groupmode="layer"
+     inkscape:label="Rostro">
+    <path
+       fill="url(#skin)"
+       d="m 395,368 c 61,-56 137,-101 242,-108 113,-8 192,79 214,167 19,49 11,108 -8,157 -20,59 -56,95 -112,117 -44,17 -90,23 -137,21 -72,2 -142,-22 -186,-63 -35,-32 -45,-65 -45,-102 -11,-53 0,-138 32,-189 z"
+       id="path126"
+       style="fill:url(#radialGradient24)" />
+    <path
+       fill="#f8bf99"
+       opacity="0.5"
+       d="m 734,282 c 13,65 57,128 117,174 l 9,40 C 867,446 841,369 818,340 L 767,288 Z M 372,485 c 8,-43 30,-71 62,-94 l -39,-11 c -23,31 -31,65 -32,96 v 51 z"
+       id="path127" />
+    <ellipse
+       cx="433"
+       cy="605"
+       rx="64"
+       ry="41"
+       fill="url(#cheek)"
+       id="ellipse127"
+       style="fill:url(#radialGradient25)" />
+    <ellipse
+       cx="768"
+       cy="612"
+       rx="67"
+       ry="43"
+       fill="url(#cheek)"
+       id="ellipse128"
+       style="fill:url(#radialGradient26)" />
+    <path
+       fill="#d6a343"
+       d="m 405,425 c 38,-36 96,-48 139,12 -44,-32 -86,-29 -103,-19 15,-18 38,-22 59,-15 -33,-12 -66,3 -95,22 z"
+       id="path128" />
+    <path
+       fill="#daaa45"
+       d="m 688,441 c 27,-47 87,-57 134,-2 -49,-26 -87,-27 -134,2 z"
+       id="path129" />
+    <path
+       fill="#100f0c"
+       d="m 431,576 c -31,-13 -41,-51 -24,-85 16,-32 45,-48 70,-45 39,3 62,43 63,80 3,23 -6,43 -17,52 -32,-8 -62,-7 -92,-2 z"
+       id="path130" />
+    <path
+       fill="url(#eyeWhite)"
+       d="m 431,576 c -24,-14 -30,-45 -17,-74 16,-34 46,-49 71,-39 32,4 54,35 55,67 1,19 -5,36 -17,48 -31,-8 -62,-7 -92,-2 z"
+       id="path131"
+       style="fill:url(#linearGradient26)" />
+    <g
+       clip-path="url(#leftEyeClip)"
+       id="g135">
+      <ellipse
+         cx="486"
+         cy="530"
+         rx="53"
+         ry="66"
+         fill="url(#iris)"
+         id="ellipse131"
+         style="fill:url(#linearGradient27)" />
+      <path
+         fill="#197ba0"
+         d="m 447,481 16,18 -8,21 -21,-3 z m 53,-10 2,15 18,18 8,-9 z"
+         id="path132" />
+      <path
+         fill="#31b8d8"
+         opacity="0.7"
+         d="m 438,551 16,-8 11,18 -8,18 z m 39,24 5,-16 11,1 7,22 z m 43,-25 14,7 -14,21 -9,-12 z"
+         id="path133" />
+      <ellipse
+         cx="489"
+         cy="527"
+         rx="36"
+         ry="45"
+         fill="url(#pupil)"
+         id="ellipse133"
+         style="fill:url(#linearGradient28)" />
+      <ellipse
+         cx="469"
+         cy="496"
+         rx="19"
+         ry="18"
+         fill="#ffffff"
+         id="ellipse134" />
+      <circle
+         cx="457.5"
+         cy="525"
+         r="9.3999996"
+         fill="#f9ffff"
+         id="circle134" />
+      <circle
+         cx="483"
+         cy="520.5"
+         r="7.4000001"
+         fill="#ffffff"
+         id="circle135" />
+      <path
+         fill="#ffffff"
+         d="m 461,552 q 5,-7 11,-3 8,7 -2,11 l -9,1 q -5,-2 0,-9 z"
+         id="path135" />
+    </g>
+    <path
+       fill="#0b0e0c"
+       d="m 692,583 c -19,-19 -18,-52 -6,-81 11,-31 35,-49 60,-49 32,-1 59,24 70,55 12,33 0,61 -32,81 -32,-11 -62,-11 -92,-6 z"
+       id="path136" />
+    <path
+       fill="url(#eyeWhite)"
+       d="m 693,583 c -16,-17 -15,-41 -8,-65 10,-32 33,-52 60,-51 28,0 51,21 63,47 12,32 -3,60 -24,75 -31,-11 -61,-11 -91,-6 z"
+       id="path137"
+       style="fill:url(#linearGradient29)" />
+    <g
+       clip-path="url(#rightEyeClip)"
+       id="g142">
+      <ellipse
+         cx="733"
+         cy="536"
+         rx="54"
+         ry="66"
+         fill="url(#iris)"
+         id="ellipse137"
+         style="fill:url(#linearGradient30)" />
+      <path
+         fill="#1f7598"
+         d="m 698,479 14,17 -15,22 -15,-5 z m 56,-1 v 15 l 19,22 9,-8 z"
+         id="path138" />
+      <path
+         fill="#2bbddd"
+         opacity="0.75"
+         d="m 681,549 18,-4 11,27 -13,14 z m 38,33 8,-18 h 10 l 7,24 z m 40,-24 20,-1 -13,26 -14,-7 z"
+         id="path139" />
+      <ellipse
+         cx="725"
+         cy="534"
+         rx="35"
+         ry="46"
+         fill="url(#pupil)"
+         id="ellipse139"
+         style="fill:url(#linearGradient31)" />
+      <ellipse
+         cx="757"
+         cy="503"
+         rx="16"
+         ry="17"
+         fill="#ffffff"
+         id="ellipse140" />
+      <circle
+         cx="708"
+         cy="512"
+         r="13"
+         fill="#ffffff"
+         id="circle140" />
+      <ellipse
+         cx="742"
+         cy="528"
+         rx="5.5999999"
+         ry="7"
+         fill="#ffffff"
+         id="ellipse141" />
+      <circle
+         cx="762.5"
+         cy="534"
+         r="7.5"
+         fill="#ffffff"
+         id="circle141" />
+      <ellipse
+         cx="748"
+         cy="562"
+         rx="6.5999999"
+         ry="7"
+         fill="#ffffff"
+         id="ellipse142" />
+    </g>
+    <path
+       fill="#ffc39e"
+       opacity="0.76"
+       d="m 586,599 c 4,-18 16,-20 26,-16 10,2 15,8 17,17 -14,-10 -28,-10 -43,-1 z"
+       id="path142" />
+    <path
+       d="m 529,625 c 8,25 38,46 74,43"
+       fill="none"
+       stroke="#ff9f79"
+       stroke-width="4.8"
+       stroke-linecap="round"
+       id="path143" />
+    <ellipse
+       cx="528.5"
+       cy="625.5"
+       rx="4.5"
+       ry="5.5"
+       fill="#ffa27a"
+       id="ellipse143" />
+  </g>
+  <g
+     id="cabello-frontal"
+     inkscape:groupmode="layer"
+     inkscape:label="Cabello frontal">
+    <path
+       fill="url(#hairFront)"
+       d="m 234,419 c 32,-12 46,-43 65,-87 l -29,38 c 0,-71 64,-155 131,-202 97,-69 208,-98 293,-70 26,9 45,24 60,39 -3,-21 -17,-38 -33,-49 37,-1 67,34 68,74 38,-11 77,19 105,65 35,57 50,132 44,205 8,21 20,40 42,51 -21,18 -47,15 -69,-1 16,34 9,64 -1,81 -1,-23 -12,-42 -24,-49 -8,25 -25,45 -44,53 10,-25 20,-60 21,-86 l -5,-25 C 797,417 751,361 731,293 c -16,59 -50,109 -114,137 23,-32 39,-70 48,-108 -28,49 -71,85 -137,107 21,-24 40,-52 53,-75 -41,37 -86,60 -140,64 24,-19 46,-45 64,-70 -35,34 -75,52 -118,65 -5,15 -15,30 -19,41 -8,31 -5,62 2,88 -23,-14 -31,-35 -36,-54 -26,3 -56,23 -71,51 -22,-43 -4,-78 11,-101 -17,0 -30,-7 -40,-19 z"
+       id="path144"
+       style="fill:url(#hairFront)" />
+    <path
+       fill="url(#hairShade)"
+       d="m 274,438 c 28,-5 50,-22 64,-44 -15,33 -32,44 -64,44 z m 6,41 c 44,-11 80,-36 96,-64 l 11,-2 c -7,33 -28,65 -53,75 -21,-2 -38,8 -54,24 l -17,27 c -3,-25 3,-45 17,-60 z"
+       id="path145"
+       style="fill:url(#linearGradient32)" />
+    <path
+       fill="#c99632"
+       d="M 489,156 C 410,206 366,279 337,367 351,276 405,203 489,156 Z"
+       id="path146" />
+    <path
+       fill="url(#hairLight)"
+       d="m 385,326 c 38,-69 78,-111 128,-145 l -41,61 47,-22 -22,39 68,-32 c -33,38 -76,71 -124,89 l 30,-50 c -28,15 -59,38 -86,60 z"
+       id="path147"
+       style="fill:url(#hairLight)" />
+    <path
+       fill="#f0c969"
+       d="m 560,323 c 36,-52 70,-87 110,-120 -25,56 -66,95 -110,120 z"
+       id="path148" />
+    <path
+       fill="#c99734"
+       d="m 354,391 c 34,-15 62,-29 86,-45 -27,28 -56,46 -86,45 z"
+       id="path149" />
+    <path
+       fill="#c99735"
+       opacity="0.7"
+       d="M 417,404 C 468,374 519,329 552,281 525,339 477,382 417,404 Z"
+       id="path150" />
+    <path
+       fill="#c68f2d"
+       opacity="0.65"
+       d="M 546,420 C 609,373 657,308 690,221 681,301 631,386 546,420 Z"
+       id="path151" />
+    <path
+       fill="#c99734"
+       d="m 586,205 c 47,-58 100,-84 157,-42 -51,-25 -103,0 -157,42 z"
+       id="path152" />
+    <path
+       fill="#c08a2b"
+       d="m 731,293 c 9,-26 13,-49 18,-75 -10,73 6,133 35,186 -25,-26 -44,-67 -53,-111 z"
+       id="path153" />
+    <path
+       fill="#c38f2e"
+       opacity="0.8"
+       d="m 782,327 c 25,58 65,101 126,129 C 844,437 800,389 782,327 Z"
+       id="path154" />
+    <path
+       fill="#c59130"
+       d="m 787,196 c 38,19 62,74 68,120 -20,-49 -38,-86 -68,-120 z"
+       id="path155" />
+    <path
+       fill="#e9bc56"
+       d="m 803,259 c 23,26 47,64 69,89 l -23,-80 c 25,37 38,76 46,113 -16,-11 -29,-26 -40,-44 l 8,33 C 830,332 813,296 803,259 Z"
+       id="path156" />
+    <path
+       fill="#c79331"
+       d="m 886,289 c 27,42 42,89 44,128 -15,-52 -28,-92 -44,-128 z"
+       id="path157" />
+  </g>
+  <g
+     id="sable-laser"
+     inkscape:groupmode="layer"
+     inkscape:label="Sable laser">
+    <path
+       fill="none"
+       stroke="#36f143"
+       stroke-width="62"
+       stroke-linecap="round"
+       filter="url(#saberGlow)"
+       opacity="0.48"
+       d="M 79,148 249,727"
+       id="path158" />
+    <path
+       fill="none"
+       stroke="url(#blade)"
+       stroke-width="57"
+       stroke-linecap="round"
+       d="M 79,148 249,727"
+       id="path159"
+       style="stroke:url(#blade)" />
+    <path
+       fill="none"
+       stroke="#f6fff6"
+       stroke-width="27"
+       stroke-linecap="round"
+       d="M 79,148 249,727"
+       id="path160" />
+    <g
+       transform="rotate(-16.4,2592.4689,-490.62135)"
+       id="g167">
+      <rect
+         x="-32"
+         y="1"
+         width="64"
+         height="34"
+         rx="4"
+         fill="url(#metal)"
+         id="rect160"
+         style="fill:url(#linearGradient33)" />
+      <path
+         fill="#e5e7de"
+         opacity="0.35"
+         d="m -25,2 h 13 v 28 h -13 z"
+         id="path161" />
+      <rect
+         x="-31"
+         y="29"
+         width="63"
+         height="8"
+         rx="4"
+         fill="#41433f"
+         id="rect161" />
+      <rect
+         x="-24"
+         y="36"
+         width="49"
+         height="160"
+         fill="url(#metal)"
+         id="rect162"
+         style="fill:url(#linearGradient34)" />
+      <path
+         fill="#d6d8d2"
+         d="m -17,39 h 9 v 149 h -9 z"
+         id="path162" />
+      <rect
+         x="-26"
+         y="52"
+         width="53"
+         height="36"
+         rx="3"
+         fill="#333634"
+         id="rect163" />
+      <path
+         fill="#171c1a"
+         d="M 8,53 H 24 V 87 H 8 Z"
+         id="path163" />
+      <rect
+         x="-30"
+         y="52"
+         width="61"
+         height="8"
+         rx="4"
+         fill="#242724"
+         id="rect164" />
+      <path
+         fill="#7f837e"
+         d="M -18,78 H 9 l 6,16 h -33 z"
+         id="path164" />
+      <path
+         fill="#70756e"
+         d="m -22,179 h 45 v 20 h -45 z"
+         id="path165" />
+      <rect
+         x="-27"
+         y="196"
+         width="55"
+         height="34"
+         rx="4"
+         fill="#333632"
+         id="rect165" />
+      <path
+         fill="#767b74"
+         d="m -24,197 h 12 v 31 h -12 z"
+         id="path166" />
+      <path
+         fill="#191e19"
+         d="m 17,197 h 8 v 30 h -8 z"
+         id="path167" />
+    </g>
+  </g>
+  <g
+     id="mano-izquierda"
+     inkscape:groupmode="layer"
+     inkscape:label="Mano izquierda">
+    <path
+       fill="url(#skinShade)"
+       d="m 313,792 c 18,10 25,36 27,59 l 8,39 -23,9 -25,-68 z"
+       id="path168"
+       style="fill:url(#linearGradient35)" />
+    <path
+       fill="#f6b48c"
+       opacity="0.6"
+       d="m 322,809 c 0,25 7,43 17,52 -11,-1 -19,-8 -23,-17 z"
+       id="path169" />
+    <path
+       fill="url(#skin)"
+       d="m 292,800 c -20,-4 -52,0 -64,16 -8,11 -5,19 2,26 -7,11 -4,22 7,29 -5,10 1,19 13,23 -4,8 2,16 16,19 l 14,1 2,-16 21,-8 q 13,-7 6,-16 c 8,-8 4,-17 -5,-21 11,-7 7,-17 -2,-21 8,-13 6,-27 -10,-32 z"
+       id="path170"
+       style="fill:url(#radialGradient35)" />
+    <path
+       fill="none"
+       stroke="#ffc19d"
+       stroke-width="4"
+       stroke-linecap="round"
+       d="m 247,835 c 12,-7 29,-9 38,-10 m -40,38 c 18,-7 37,-12 55,-15 m -31,40 35,-12"
+       id="path171" />
+    <path
+       fill="url(#skin)"
+       d="m 303,787 c -14,4 -16,22 -11,39 3,12 11,18 19,14 10,-5 15,-23 10,-39 -2,-10 -8,-16 -18,-14 z"
+       id="path172"
+       style="fill:url(#radialGradient36)" />
+    <path
+       fill="#ffcaab"
+       d="m 316,798 c 7,15 1,35 -6,39 11,1 18,-18 11,-36 z"
+       id="path173" />
+  </g>
+</svg>
